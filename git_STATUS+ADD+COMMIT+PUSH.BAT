@@ -1,5 +1,5 @@
 @REM  cd.. devi posizionarti su git_desktop
-CD c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\
+CD c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MENU\
 
 dir 
 
@@ -12,7 +12,7 @@ ECHO pausa di 3 secondi per il controllo
 
 
 git add .
-git commit -m "aggiornamento"
+git commit -m "aggiornamento MENU"
 
 @rem pausa di 20 secondi per consentire il commit
 
