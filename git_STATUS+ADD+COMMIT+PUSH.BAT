@@ -27,14 +27,17 @@ echo %today%
 
 :----------------------------CICLO FOR  II CASO cicolo for per per la data AAA MM GG senza sottostringhe
 
-@ECHO ========================================================================================================================
 
 ECHO.
 ECHO. 
 git add .
 git commit -m "%today%_aggiornamento_MENU"
+
+PAUSE
 ECHO. 
 ECHO. 
+@ECHO ========================================================================================================================
+
 
 @rem pausa di 20 secondi per consentire il commit
 
