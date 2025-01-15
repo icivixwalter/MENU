@@ -10,6 +10,8 @@ ECHO pausa di 3 secondi per il controllo
 @TIMEOUT /T 3 /NOBREAK
 
 
+
+ECHO OFF
 @ECHO CICLO FOR I E II CASO PER LA GESTIONE DELLA DATA
 @ECHO ========================================================================================================================
 
@@ -33,7 +35,7 @@ ECHO.
 git add .
 git commit -m "%today%_aggiornamento_MENU"
 
-PAUSE
+
 ECHO. 
 ECHO. 
 @ECHO ========================================================================================================================
