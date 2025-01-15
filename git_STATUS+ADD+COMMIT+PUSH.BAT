@@ -22,9 +22,9 @@ git commit -m "aggiornamento MENU"
 @REM ---->
 ECHO
 ECHO
-ECHO  pausa di 20 secondi per consentire il commit
+ECHO  pausa di 10 secondi per consentire il commit
 ECHO
-@TIMEOUT /T 20 /NOBREAK
+@TIMEOUT /T 10 /NOBREAK
 
 git push
 
