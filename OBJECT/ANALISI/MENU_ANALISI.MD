@@ -1,4 +1,11 @@
 MENU_ANALISI.MD
+	
+	UTIITA_UFFICIO
+		Utente e profilo di edge dell'ufficio si trova in questa path:
+			C:\Users\walter.rossi\AppData\Local\Microsoft\Edge\User Data
+
+	    Profilo di EDGE quello personale si trova qui:
+	    	c:\Users\walter.rossi\AppData\Local\Microsoft\Edge\User Data\Personale\
 
 	Note
 		@analisi@menu_(analisi sui menu DI TUTTI I PROGETTI)

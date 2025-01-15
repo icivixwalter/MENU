@@ -10,9 +10,29 @@ ECHO pausa di 3 secondi per il controllo
 @TIMEOUT /T 3 /NOBREAK
 
 
+@ECHO CICLO FOR I E II CASO PER LA GESTIONE DELLA DATA
+@ECHO ========================================================================================================================
+
+:----------------------------CICLO FOR I CASO per la gestione della data con le sottostringhe ma aggiunge lo 0 se <10
+for /f "skip=1" %%x in ('wmic os get localdatetime') do if not defined MyDate set MyDate=%%x
+set today=%MyDate:~0,4%_%MyDate:~4,2%_%MyDate:~6,2%
+echo %today%
+
+
+					@REM SOSPENSIONE TEMPO IMPOSTATA CON T
+					@REM ---->	timeout /t 2 /nobreak > NUL
+					@REM ---->	
+					REM @TIMEOUT /T 2 /NOBREAK
+					@REM Pause
+
+:----------------------------CICLO FOR  II CASO cicolo for per per la data AAA MM GG senza sottostringhe
+
+@ECHO ========================================================================================================================
+
+
 
 git add .
-git commit -m "aggiornamento MENU"
+git commit -m "%today%_aggiornamento_MENU"
 
 @rem pausa di 20 secondi per consentire il commit
 
