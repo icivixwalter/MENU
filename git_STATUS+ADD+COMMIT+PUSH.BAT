@@ -11,7 +11,7 @@ ECHO pausa di 3 secondi per il controllo
 
 
 
-ECHO OFF
+@CLS
 @ECHO CICLO FOR I E II CASO PER LA GESTIONE DELLA DATA
 @ECHO ========================================================================================================================
 
