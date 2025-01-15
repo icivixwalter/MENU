@@ -1,7 +1,7 @@
 MENU_ANALISI.MD
 
 	Note
-		@analisi@menu_(analisi sui menu)
+		@analisi@menu_(analisi sui menu DI TUTTI I PROGETTI)
 
 		Per i menu vi il pogetto MENU_GESTIONE.mdb	  che è duputato
 		alla gestione dei menu in collegamento con le altre due 
