@@ -29,10 +29,12 @@ echo %today%
 
 @ECHO ========================================================================================================================
 
-
-
+ECHO.
+ECHO. 
 git add .
 git commit -m "%today%_aggiornamento_MENU"
+ECHO. 
+ECHO. 
 
 @rem pausa di 20 secondi per consentire il commit
 
