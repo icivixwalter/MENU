@@ -1,12 +1,16 @@
-//ATTENZIONE AGLI SPAZI DI FINE RIGA non ci devono essere altrimenti non salva 
-//questo Ã¨ il secondo esempio con path e file liberi senza .\ e sembra che funziona
-//............................................................................//
-MDB\
-OBJECT\
+ Il volume nell'unit… C Š Acer
+ Numero di serie del volume: 9AC9-8549
 
+ Directory di c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MENU
 
-AA__________________________________________________________________________AA.txt
+[.]
+[..]
+[AA_SALVATAGGI]
+[MDB]
+[OBJECT]
 .gitignore
+A.TXT
+AA__________________________________________________________________________AA.txt
 CANCELLA_{MDB+OBJECT+PROJECT}.BAT
 git_OPEN_OVERLEAF.BAT
 git_OpenGitHub.bat
@@ -25,3 +29,5 @@ Zip_N70_ElencoFile.txt
 Zip_N70_ElencoFileESCLUSI.txt
 Zip_N70_RAR_____________________________________________________________RAR.txt
 ZZ__________________________________________________________________________ZZ.txt
+              21 File         61.979 byte
+               5 Directory  127.614.464.000 byte disponibili
